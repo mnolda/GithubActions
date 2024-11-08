@@ -34,7 +34,7 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_ValidNolda()
         {
-            Assert.AreEqual(3, Program.Subtract("4", "2"));
+            Assert.AreEqual(2, Program.Subtract("4", "2"));
             Assert.AreEqual(-3, Program.Subtract("3", "6"));
             Assert.AreEqual(5, Program.Subtract("12", "7"));
         }
